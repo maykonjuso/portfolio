@@ -1,6 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Image from "next/image";
+import Header from "./pages/components/header";
+import photo from "public/blur.png";
+import StarrySky from "./pages/components/stars";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +20,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt_BR">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={`${inter.className} min-h-screen bg-gradient-to-b from-blue-500 to-black-100`}
+      >
+        <div className="absolute z-20 top-0 inset-x-0 flex justify-center overflow-hidden pointer-events-none">
+          <Image
+            priority
+            src={photo}
+            alt="Logo site - Maykon"
+            className="w-[71.75rem] flex-none max-w-none"
+          />
+        </div>
+        <StarrySky />
+        <Header />
+        <main className="min-h-full min-w-full">{children}</main>
+      </body>
     </html>
   );
 }
