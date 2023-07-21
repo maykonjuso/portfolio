@@ -8,20 +8,20 @@ export default function Header() {
         <Image priority src={logo} alt="Logo site - Maykon" />
         <h1 className="font-semibold text-white-100">Portólio</h1>
       </div>
-      <ul className="flex flex-row gap-8">
-        <li className="cursor-pointer font-semibold text-white-100 hover:text-slate-200">
+      <nav className="flex flex-row gap-8">
+        <a className="cursor-pointer font-semibold text-white-100 hover:text-slate-300">
           Sobre
-        </li>
-        <li className="cursor-pointer font-semibold text-white-100 hover:text-slate-200">
+        </a>
+        <a className="cursor-pointer font-semibold text-white-100 hover:text-slate-300">
           Projetos
-        </li>
-        <li className="cursor-pointer font-semibold text-white-100 hover:text-slate-200">
+        </a>
+        <a className="cursor-pointer font-semibold text-white-100 hover:text-slate-300">
           Experiência
-        </li>
-        <li className="cursor-pointer font-semibold text-white-100 hover:text-slate-200">
+        </a>
+        <a className="cursor-pointer font-semibold text-white-100 hover:text-slate-300">
           Formação
-        </li>
-      </ul>
+        </a>
+      </nav>
       <button className="rounded-xl bg-white-100 px-6 py-2 text-sm hover:bg-slate-200">
         <span className="font-semibold text-black-100">contato</span>
       </button>

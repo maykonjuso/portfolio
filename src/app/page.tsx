@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex w-full flex-col justify-center gap-8">
         <div className="flex flex-col gap-2">
           <h2 className="text-6xl font-bold text-white-100">Olá! me chamo</h2>
-          <h2 className="bg-gradient-to-r from-sky-400 to-cyan-300 bg-clip-text text-6xl font-bold text-transparent">
+          <h2 className="bg-gradient-to-r from-sky-700 to-cyan-200 bg-clip-text text-8xl font-bold text-transparent">
             Maykon Júnio
           </h2>
         </div>
