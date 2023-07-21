@@ -1,81 +1,87 @@
-"use client";
-import anime from "animejs/lib/anime.es.js";
-import React from "react";
-import "./index.css";
+'use client'
+import anime from 'animejs/lib/anime.es.js'
+import React from 'react'
+import './index.css'
 
 export default class StarrySky extends React.Component {
   state = {
     num: 60,
     vw: 0,
     vh: 0,
-  };
+  }
 
   componentDidMount() {
     this.setState({
       vw: Math.max(
         document.documentElement.clientWidth,
-        window.innerWidth || 0
+        window.innerWidth || 0,
       ),
       vh: Math.max(
         document.documentElement.clientHeight,
-        window.innerHeight || 0
+        window.innerHeight || 0,
       ),
-    });
-    this.starryNight();
-    this.shootingStars();
+    })
+    this.starryNight()
+    this.shootingStars()
   }
+
   starryNight = () => {
     anime({
-      targets: ["#sky .star"],
+      targets: ['#sky .star'],
       opacity: [
         {
           duration: 700,
-          value: "0",
+          value: '0',
         },
         {
           duration: 700,
-          value: "1",
+          value: '1',
         },
       ],
-      easing: "linear",
+      easing: 'linear',
       loop: true,
       delay: (el, i) => 50 * i,
-    });
-  };
+    })
+  }
+
   shootingStars = () => {
     anime({
-      targets: ["#shootingstars .wish"],
-      easing: "linear",
+      targets: ['#shootingstars .wish'],
+      easing: 'linear',
       loop: true,
-      delay: (el, i) => 1000 * i,
+      delay: (el, i) => 9000 * i,
       opacity: [
         {
           duration: 700,
-          value: "1",
+          value: '1',
         },
       ],
       width: [
         {
-          value: "150px",
+          value: '150px',
         },
         {
-          value: "0px",
+          value: '0px',
         },
       ],
       translateX: 350,
-    });
-  };
+    })
+  }
+
   randomRadius = () => {
-    return Math.random() * 0.7 + 0.6;
-  };
+    return Math.random() * 0.7 + 0.6
+  }
+
   getRandomX = () => {
-    return Math.floor(Math.random() * Math.floor(this.state.vw)).toString();
-  };
+    return Math.floor(Math.random() * Math.floor(this.state.vw)).toString()
+  }
+
   getRandomY = () => {
-    return Math.floor(Math.random() * Math.floor(this.state.vh)).toString();
-  };
+    return Math.floor(Math.random() * Math.floor(this.state.vh)).toString()
+  }
+
   render() {
-    const { num } = this.state;
+    const { num } = this.state
     return (
       <div id="App">
         <svg id="sky">
@@ -105,6 +111,6 @@ export default class StarrySky extends React.Component {
           ))}
         </div>
       </div>
-    );
+    )
   }
 }
