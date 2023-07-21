@@ -20,7 +20,7 @@ export default function Home() {
             Seja bem-vind@ ao meu Portfólio
           </h3>
         </div>
-        <button className="flex max-w-fit flex-row items-center gap-2 rounded-xl border border-white-10 bg-white-10 px-6 py-1 hover:opacity-80">
+        <button className="flex max-w-fit flex-row items-center gap-2 rounded-xl border border-white-10 bg-white-10 px-6 py-1 duration-200 hover:opacity-90">
           <span className="text-2xl font-bold text-sky-500">•</span>
           <span className="text-base font-semibold text-white-100">
             Projetos recentes
