@@ -1,10 +1,11 @@
 import { ChevronRight } from 'lucide-react'
 import { PageWrapper } from '../page-wrapper'
+import Footer from '../components/footer'
 
 export default function about() {
   return (
     <PageWrapper>
-      <div className="mx-48 mt-24 flex min-h-screen flex-col gap-20">
+      <div className="mx-48 flex min-h-screen flex-col gap-20 py-24">
         <div className="flex flex-row justify-center">
           <div className="flex flex-col gap-14">
             <div className="flex justify-between ">
@@ -81,6 +82,7 @@ export default function about() {
           </div>
         </div>
       </div>
+      <Footer />
     </PageWrapper>
   )
 }

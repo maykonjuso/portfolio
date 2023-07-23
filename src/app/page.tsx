@@ -5,8 +5,8 @@ import { PageWrapper } from './page-wrapper'
 
 export default function Home() {
   return (
-    <PageWrapper>
-      <div className="mx-48 flex h-screen flex-row items-center justify-center">
+    <div className="mx-48 flex h-screen flex-row items-center justify-center overflow-hidden">
+      <PageWrapper>
         <div className="flex w-full flex-col items-center justify-center gap-5">
           <Image priority src={photo} alt="Maykon" width={200} />
           <div className="flex flex-col items-center gap-2">
@@ -28,7 +28,7 @@ export default function Home() {
             <ChevronRight size={16} strokeWidth={2.5} color="#f9f9f9" />
           </button>
         </div>
-      </div>
-    </PageWrapper>
+      </PageWrapper>
+    </div>
   )
 }

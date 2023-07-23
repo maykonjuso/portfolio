@@ -1,10 +1,32 @@
+'use client'
 import logo from 'public/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
+import React, { useEffect, useRef, useState } from 'react'
 
 export default function Header() {
+  const ref = useRef<HTMLElement>(null)
+  const [isIntersecting, setIntersecting] = useState(true)
+
+  useEffect(() => {
+    if (!ref.current) return
+    const observer = new IntersectionObserver(([entry]) =>
+      setIntersecting(entry.isIntersecting),
+    )
+
+    observer.observe(ref.current)
+    return () => observer.disconnect()
+  }, [])
+
   return (
-    <header className="fixed flex h-16 w-full flex-row items-center justify-between border-b border-white-10 bg-black-50/10 px-48 backdrop-blur-sm">
+    <header
+      ref={ref}
+      className={`fixed inset-x-0 top-0 z-50 flex h-16 w-full flex-row items-center justify-between border-b px-48 backdrop-blur duration-200  ${
+        isIntersecting
+          ? 'border-transparent bg-zinc-900/0'
+          : 'bg-zinc-900/500  border-zinc-800 '
+      }`}
+    >
       <Link href={'/'}>
         <div className="flex flex-row items-center gap-3">
           <Image priority src={logo} alt="Logo Maykon" />
