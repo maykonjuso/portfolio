@@ -5,3 +5,8 @@
 :root {
     color-scheme: dark;
 }
+
+::selection {
+    background: #5FC2D9;
+    color: #000000;
+  }
