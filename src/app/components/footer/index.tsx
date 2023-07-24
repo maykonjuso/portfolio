@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-900/500 flex h-10 items-center justify-between border-t border-zinc-800/90 px-48">
+    <footer className="bg-zinc-900/500 flex h-10 items-center justify-between border-t border-zinc-800/90 px-48 max-lg:px-10">
       <h2 className="text-xs">
         Designed by{' '}
         <a
@@ -13,7 +13,7 @@ export default function Footer() {
           Maykon Júnio
         </a>
       </h2>
-      <nav className="flex gap-8">
+      <nav className="flex gap-8 max-lg:gap-4">
         <a href="https://github.com/maykonjuso" target="_blank">
           <Github size={18} />
         </a>

@@ -5,14 +5,14 @@ import Footer from '../components/footer'
 export default function about() {
   return (
     <PageWrapper>
-      <div className="mx-48 flex min-h-screen flex-col gap-20 py-24">
-        <div className="flex flex-row justify-center">
-          <div className="flex flex-col gap-14">
-            <div className="flex justify-between ">
-              <h2 className="w-1/5 bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text text-4xl font-bold text-transparent">
+      <div className="flex min-h-screen flex-col gap-20 px-48 py-24 max-lg:px-10">
+        <div className="flex flex-row justify-center ">
+          <div className="flex flex-col gap-14 max-sm:gap-14">
+            <div className="flex justify-between max-sm:flex-col max-sm:justify-center max-sm:gap-10">
+              <h2 className="w-1/5 bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text text-4xl font-bold text-transparent max-sm:w-full">
                 Um pouco mais sobre mim
               </h2>
-              <p className="w-3/6 text-justify text-white-100">
+              <p className="w-3/6 text-justify text-white-100 max-sm:w-full">
                 Como graduando em Engenharia de Software pela Universidade de
                 Brasília (UnB), minha jornada acadêmica tem sido emocionante e
                 repleta de oportunidades para expandir meus conhecimentos na
@@ -20,7 +20,7 @@ export default function about() {
                 desenvolvimento Full-Stack e Ciência de Dados, áreas que me
                 fascinam profundamente.
               </p>
-              <ul className="flex flex-col items-end">
+              <ul className="flex flex-col items-end max-sm:items-start">
                 <li className="font-bold text-white-100">Áreas de atuação</li>
                 <li className="text-white-100">Data Science</li>
                 <li className="text-white-100">Machine learning</li>
@@ -37,12 +37,12 @@ export default function about() {
             </button>
           </div>
         </div>
-        <div className="flex flex-row gap-24">
-          <div className="w-1/2">
+        <div className="flex flex-row gap-24 max-sm:flex-col">
+          <div className="w-1/2 max-sm:w-full">
             <h2 className="bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text pb-8 text-4xl font-bold text-transparent">
               Data Scientist
             </h2>
-            <p className="text-justify text-white-100">
+            <p className="text-justify text-white-100 ">
               Minha paixão pela Ciência de Dados me levou a explorar um vasto
               conjunto de ferramentas e técnicas para extrair informações
               valiosas de conjuntos de dados complexos. Através do estudo de
@@ -60,7 +60,7 @@ export default function about() {
               transformação.
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="w-1/2 max-sm:w-full">
             <h2 className="bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text pb-8 text-4xl font-bold text-transparent">
               Developer
             </h2>
