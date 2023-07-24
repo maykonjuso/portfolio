@@ -43,14 +43,12 @@ export default function Header() {
           : 'bg-zinc-900/500  border-zinc-800 '
       }`}
     >
-      <Link href={'/'}>
-        <div className="flex flex-row items-center gap-3">
-          <Image priority src={logo} alt="Logo Maykon" />
-          {!isLess && (
-            <h1 className="font-semibold text-white-100">Portfólio</h1>
-          )}
-        </div>
-      </Link>
+      {/* <Link href={'/'}> */}
+      <div className="flex flex-row items-center gap-3">
+        <Image priority src={logo} alt="Logo Maykon" />
+        {!isLess && <h1 className="font-semibold text-white-100">Portfólio</h1>}
+      </div>
+      {/* </Link> */}
       <nav className="flex flex-row gap-8">
         <Link
           href={'/about'}
