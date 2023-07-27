@@ -18,8 +18,8 @@
 ## Instalação
 
 ```bash
-$ git clone https://github.com/maykonjuso/Portfolio.git
-$ cd Portfolio
+$ git clone https://github.com/maykonjuso/portfolio.git
+$ cd portfolio
 ```
 
 ## Equipe
