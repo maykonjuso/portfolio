@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 
 export default function Footer() {
   return (
-    <footer className="bg-zinc-900/500 flex h-10 items-center justify-between border-t border-zinc-800/90 px-48 max-lg:px-10 2xl:px-80 ">
+    <footer className="bg-zinc-900/500 flex h-10 items-center justify-between border-t border-zinc-800/90 px-48 max-lg:px-6 2xl:px-80 ">
       <h2 className="text-xs">
         Designed by{' '}
         <a
