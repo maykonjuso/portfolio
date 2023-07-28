@@ -37,7 +37,7 @@ export default function Header() {
   return (
     <header
       ref={ref}
-      className={`fixed inset-x-0 top-0 z-50 flex h-16 w-full flex-row items-center justify-between border-b px-48 backdrop-blur duration-200 max-lg:px-10  ${
+      className={`fixed inset-x-0 top-0 z-50 flex h-16 w-full flex-row items-center justify-between border-b px-48 backdrop-blur duration-200 max-lg:px-10 lg:px-32 2xl:px-80  ${
         isIntersecting
           ? 'border-transparent bg-zinc-900/0'
           : 'bg-zinc-900/500  border-zinc-800 '

@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 export default function about() {
   return (
     <PageWrapper>
-      <div className="flex min-h-screen flex-col gap-20 px-48 py-24 max-lg:px-10">
+      <div className="flex min-h-screen flex-col gap-20 px-48 py-24 max-lg:px-10 lg:px-32 2xl:px-80">
         <div className="flex flex-row justify-center ">
           <div className="flex flex-col gap-14 max-sm:gap-14">
             <div className="flex justify-between max-sm:flex-col max-sm:justify-center max-sm:gap-10">
