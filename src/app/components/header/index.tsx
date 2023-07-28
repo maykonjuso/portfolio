@@ -3,13 +3,7 @@ import logo from 'public/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
-import {
-  Briefcase,
-  FolderGit2,
-  GraduationCap,
-  Phone,
-  User2,
-} from 'lucide-react'
+import { Briefcase, FolderGit2, GraduationCap, User2 } from 'lucide-react'
 
 export default function Header() {
   const ref = useRef<HTMLElement>(null)
@@ -63,7 +57,7 @@ export default function Header() {
           {isLess ? <FolderGit2 /> : 'Projetos'}
         </Link>
         <Link
-          href={'experience'}
+          href={'/experience'}
           className="cursor-pointer font-semibold text-white-100 duration-200 hover:text-slate-300"
         >
           {isLess ? <Briefcase /> : 'Experiência'}

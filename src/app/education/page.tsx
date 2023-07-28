@@ -9,7 +9,6 @@ export default function education() {
   return (
     <PageWrapper>
       <div className="flex min-h-screen flex-col gap-10 px-48 py-24 max-lg:gap-16 max-lg:px-10 lg:px-32 2xl:px-80">
-        <h2 className="text-2xl font-bold">Formação acadêmica</h2>
         <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
           <div className="h-44 w-2/4 max-lg:w-full xl:w-96">
             <Image

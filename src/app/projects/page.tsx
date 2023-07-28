@@ -12,7 +12,7 @@ export default function projects() {
   return (
     <PageWrapper>
       <div className="flex min-h-screen flex-col gap-10 px-48 py-24 max-lg:gap-16 max-lg:px-10 lg:px-32 2xl:px-80">
-        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
+        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent duration-200 max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
           <div className="flex h-44 w-2/4 max-lg:w-full xl:w-96">
             <Image
               priority
@@ -22,14 +22,18 @@ export default function projects() {
             />
           </div>
           <div className="flex w-2/3 flex-col gap-5 max-lg:w-full">
-            <div className="group/edit flex cursor-pointer items-center gap-3">
+            <a
+              href="https://family-music-school.web.app/"
+              target="_blank"
+              className="group/edit flex cursor-pointer items-center gap-3"
+            >
               <h2 className="bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text text-4xl font-bold text-transparent max-lg:w-full">
                 Family Music School
               </h2>
               <div className="invisible transition group-hover/edit:translate-x-2 lg:group-hover/item:visible">
                 <ChevronRight size={32} strokeWidth={2.75} color="#5FC2D9" />
               </div>
-            </div>
+            </a>
 
             <p className="text-justify">
               O projeto <b>Family Music System</b> está foi desenvolvido pela
@@ -41,10 +45,11 @@ export default function projects() {
             </p>
             <Tools
               tools={['Angular', 'Strapi', 'SQLite', 'Bootstrap', 'Jest']}
+              rep="https://github.com/maykonjuso/2023.1-FamilyMusicSystem"
             />
           </div>
         </div>
-        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
+        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent duration-200 max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
           <div className="h-44 w-2/4 rounded-sm max-lg:w-full xl:w-96">
             <Image
               priority
@@ -54,14 +59,18 @@ export default function projects() {
             />
           </div>
           <div className="flex w-2/3 flex-col gap-5 max-lg:w-full ">
-            <div className="group/edit flex cursor-pointer items-center gap-3">
+            <a
+              href="https://github.com/maykonjuso/2022.2-Amicis"
+              target="_blank"
+              className="group/edit flex cursor-pointer items-center gap-3"
+            >
               <h2 className="bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text text-4xl font-bold text-transparent max-lg:w-full">
                 Amicis
               </h2>
               <div className="invisible transition group-hover/edit:translate-x-2 lg:group-hover/item:visible">
                 <ChevronRight size={32} strokeWidth={2.75} color="#5FC2D9" />
               </div>
-            </div>
+            </a>
 
             <p className="text-justify">
               O projeto Amicis tem como propósito a criação de uma aplicação
@@ -71,10 +80,13 @@ export default function projects() {
               e publicar postagens, buscando reproduzir as principais
               funcionalidades do famoso aplicativo de mídia social.
             </p>
-            <Tools tools={['Java', 'Python', 'MySQL', 'Docker']} />
+            <Tools
+              tools={['Java', 'Python', 'MySQL', 'Docker']}
+              rep="https://github.com/maykonjuso/2022.2-Amicis"
+            />
           </div>
         </div>
-        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
+        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent duration-200 max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
           <div className="h-44 w-2/4 rounded-sm max-lg:w-full xl:w-96">
             <Image
               priority
@@ -84,14 +96,18 @@ export default function projects() {
             />
           </div>
           <div className="flex w-2/3 flex-col gap-5 max-lg:w-full ">
-            <div className="group/edit flex cursor-pointer items-center gap-3">
+            <a
+              href="https://github.com/maykonjuso/airaccidents"
+              target="_blank"
+              className="group/edit flex cursor-pointer items-center gap-3"
+            >
               <h2 className="bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text text-4xl font-bold text-transparent max-lg:w-full">
                 Air Accidents
               </h2>
               <div className="invisible transition group-hover/edit:translate-x-2 lg:group-hover/item:visible">
                 <ChevronRight size={32} strokeWidth={2.75} color="#5FC2D9" />
               </div>
-            </div>
+            </a>
 
             <p className="text-justify">
               O Air Accidents explora uma base de dados disponiblizada pela ANAC
@@ -102,10 +118,13 @@ export default function projects() {
               contribuindo para a melhoria contínua da segurança na aviação
               civil e o aprimoramento do setor como um todo.
             </p>
-            <Tools tools={['Python', 'Jupyter', 'Dash', 'Power BI']} />
+            <Tools
+              tools={['Python', 'Jupyter', 'Dash', 'Power BI']}
+              rep="https://github.com/maykonjuso/airaccidents"
+            />
           </div>
         </div>
-        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
+        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent duration-200 max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
           <div className="h-44 w-2/4 rounded-sm max-lg:w-full xl:w-96">
             <Image
               priority
@@ -115,14 +134,18 @@ export default function projects() {
             />
           </div>
           <div className="flex w-2/3 flex-col gap-5 max-lg:w-full ">
-            <div className="group/edit flex cursor-pointer items-center gap-3">
+            <a
+              href="https://github.com/maykonjuso/carteiradigital"
+              target="_blank"
+              className="group/edit flex cursor-pointer items-center gap-3"
+            >
               <h2 className="bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text text-4xl font-bold text-transparent max-lg:w-full">
                 Carteira Digital de Trânsito
               </h2>
               <div className="invisible transition group-hover/edit:translate-x-2 lg:group-hover/item:visible">
                 <ChevronRight size={32} strokeWidth={2.75} color="#5FC2D9" />
               </div>
-            </div>
+            </a>
             <p className="text-justify">
               Projeto apresenta os resultados de uma pesquisa realizada com
               usuários do aplicativo Carteira Digital de Trânsito. A pesquisa
@@ -132,7 +155,10 @@ export default function projects() {
               correções realizadas e compartilharam suas opiniões sobre as
               melhorias implementadas.
             </p>
-            <Tools tools={['Python', 'Figma', 'Miro', 'Power BI']} />
+            <Tools
+              tools={['Python', 'Figma', 'Miro', 'Power BI']}
+              rep="https://github.com/maykonjuso/carteiradigital"
+            />
           </div>
         </div>
       </div>
