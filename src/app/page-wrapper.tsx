@@ -1,6 +1,7 @@
 'use client'
 
 import { motion, AnimatePresence } from 'framer-motion'
+import { Mail } from 'lucide-react'
 
 export const PageWrapper = ({ children }: { children: React.ReactNode }) => (
   <>

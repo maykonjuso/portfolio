@@ -3,7 +3,7 @@ import logo from 'public/logo.svg'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useRef, useState } from 'react'
-import { Briefcase, FolderGit2, GraduationCap, User2 } from 'lucide-react'
+import { Briefcase, FolderGit2, GraduationCap, Mail, User2 } from 'lucide-react'
 
 export default function Header() {
   const ref = useRef<HTMLElement>(null)
@@ -37,13 +37,15 @@ export default function Header() {
           : 'bg-zinc-900/500  border-zinc-800 '
       }`}
     >
-      {/* <Link href={'/'}> */}
-      <div className="flex flex-row items-center gap-3">
-        <Image priority src={logo} alt="Logo Maykon" />
-        {!isLess && <h1 className="font-semibold text-white-100">Portfólio</h1>}
-      </div>
-      {/* </Link> */}
-      <nav className="flex flex-row gap-8">
+      <Link href={'/'}>
+        <div className="flex flex-row items-center gap-3">
+          <Image priority src={logo} alt="Logo Maykon" />
+          {!isLess && (
+            <h1 className="font-semibold text-white-100">Portfólio</h1>
+          )}
+        </div>
+      </Link>
+      <nav className="flex flex-row gap-6">
         <Link
           href={'/about'}
           className="cursor-pointer font-semibold text-white-100 duration-200 hover:text-slate-300"
@@ -69,10 +71,16 @@ export default function Header() {
           {isLess ? <GraduationCap /> : 'Formação'}
         </Link>
       </nav>
-      {!isLess && (
-        <button className="rounded-xl bg-white-100 px-6 py-2 text-sm duration-200 hover:bg-slate-200">
-          <span className="font-semibold text-black-100">contato</span>
-        </button>
+      {!isLess ? (
+        <Link href={'/contact'}>
+          <button className="rounded-xl bg-white-100 px-6 py-2 text-sm duration-200 hover:bg-slate-200">
+            <span className="font-semibold text-black-100">contato</span>
+          </button>
+        </Link>
+      ) : (
+        <Link href={'/contact'}>
+          <Mail />
+        </Link>
       )}
     </header>
   )

@@ -5,6 +5,7 @@ import Header from './components/header'
 import Image from 'next/image'
 import photo from 'public/blur.png'
 import Particles from './components/starsLight'
+import { Mail } from 'lucide-react'
 
 const inter = Inter({ subsets: ['latin'] })
 
