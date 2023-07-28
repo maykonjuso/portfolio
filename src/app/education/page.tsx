@@ -3,14 +3,14 @@ import Footer from '../components/footer'
 import Image from 'next/image'
 import Unb from 'public/unb.png'
 import Ifb from 'public/ifb.png'
-import { CalendarClock, MapPin } from 'lucide-react'
+import { CalendarClock, MapPin, Timer } from 'lucide-react'
 
 export default function education() {
   return (
     <PageWrapper>
-      <div className="flex min-h-screen flex-col gap-20 px-48 py-24 max-lg:px-10 lg:px-32 2xl:px-80">
+      <div className="flex min-h-screen flex-col gap-10 px-48 py-24 max-lg:gap-16 max-lg:px-10 lg:px-32 2xl:px-80">
         <h2 className="text-2xl font-bold">Formação acadêmica</h2>
-        <div className="flex justify-between gap-16 max-lg:w-full max-lg:flex-col max-lg:gap-8">
+        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
           <div className="h-44 w-2/4 max-lg:w-full xl:w-96">
             <Image
               priority
@@ -38,7 +38,7 @@ export default function education() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between gap-16 max-lg:w-full max-lg:flex-col max-lg:gap-8">
+        <div className="group/item flex justify-between gap-16 rounded-xl border border-transparent max-lg:w-full max-lg:flex-col max-lg:gap-8 lg:px-6 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
           <div className="h-44 w-2/4 max-lg:w-full xl:w-96">
             <Image
               priority
@@ -70,6 +70,43 @@ export default function education() {
         </div>
 
         <h2 className="text-2xl font-bold">Certificados</h2>
+        <div className="grid grid-cols-3 gap-4 max-lg:grid-cols-1 max-lg:gap-y-10">
+          <div className="group/item flex flex-col justify-between gap-4 rounded-xl border border-transparent max-lg:w-full lg:px-8 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
+            <h2 className="font-bold">
+              Introdução a Experiência do Usuário (UX)
+            </h2>
+            <div className="flex flex-row gap-2">
+              <MapPin />
+              <h2>Universidade de Brasília</h2>
+            </div>
+            <div className="flex flex-row gap-2">
+              <Timer />
+              <p>60 horas</p>
+            </div>
+          </div>
+          <div className="group/item flex flex-col justify-between gap-4 rounded-xl border border-transparent max-lg:w-full lg:px-8 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
+            <h2 className="font-bold">VBA para excel</h2>
+            <div className="flex flex-row gap-2">
+              <MapPin />
+              <h2>Udemy</h2>
+            </div>
+            <div className="flex flex-row gap-2">
+              <Timer />
+              <p>90 horas</p>
+            </div>
+          </div>
+          <div className="group/item flex flex-col justify-between gap-4 rounded-xl border border-transparent max-lg:w-full lg:px-8 lg:py-8 lg:hover:border-white-10 lg:hover:bg-slate-400/5">
+            <h2 className="font-bold">Power BI</h2>
+            <div className="flex flex-row gap-2">
+              <MapPin />
+              <h2>Universidade de Brasília</h2>
+            </div>
+            <div className="flex flex-row gap-2">
+              <Timer />
+              <p>30 horas</p>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </PageWrapper>
