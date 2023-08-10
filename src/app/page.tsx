@@ -17,7 +17,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center">
             <h3 className="text-lg font-bold text-white-100/90">
-              Data Scientist e Developer
+              Data Scientist
             </h3>
             <h3 className="text-lg font-normal text-white-100/90">
               Seja bem-vind@ ao meu Portfólio

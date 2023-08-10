@@ -110,13 +110,14 @@ export default function projects() {
             </a>
 
             <p className="text-justify">
-              O Air Accidents explora uma base de dados disponiblizada pela ANAC
-              relacionada à acidentes áreos, aplicando técnicas de análise de
-              dados e visualização para criar dashboards informativos e
-              acessíveis. Sendo assim, por meio dessas ferramentas, buscou-se
-              fornecer insights valiosos sobre acidentes aéreos no Brasil,
-              contribuindo para a melhoria contínua da segurança na aviação
-              civil e o aprimoramento do setor como um todo.
+              O <b>Air Accidents</b> explora uma base de dados disponiblizada
+              pela ANAC relacionada à acidentes áreos, aplicando técnicas de
+              análise de dados e visualização para criar <b>dashboards</b>{' '}
+              informativos e acessíveis. Sendo assim, por meio dessas
+              ferramentas, buscou-se fornecer insights valiosos sobre
+              <b> acidentes aéreos no Brasil</b>, contribuindo para a melhoria
+              contínua da segurança na aviação civil e o aprimoramento do setor
+              como um todo.
             </p>
             <Tools
               tools={['Python', 'Jupyter', 'Dash', 'Power BI']}
@@ -148,12 +149,12 @@ export default function projects() {
             </a>
             <p className="text-justify">
               Projeto apresenta os resultados de uma pesquisa realizada com
-              usuários do aplicativo Carteira Digital de Trânsito. A pesquisa
-              teve como objetivo identificar as falhas anteriores do aplicativo
-              e avaliar a satisfação dos usuários após a correção dessas falhas.
-              Todos os participantes da pesquisa expressaram sua aceitação das
-              correções realizadas e compartilharam suas opiniões sobre as
-              melhorias implementadas.
+              usuários do aplicativo <b>Carteira Digital de Trânsito</b>. A
+              pesquisa teve como objetivo identificar as falhas anteriores do
+              aplicativo e avaliar a <b>satisfação dos usuários</b> após a
+              correção dessas falhas. Todos os participantes da pesquisa
+              expressaram sua aceitação das correções realizadas e
+              compartilharam suas opiniões sobre as melhorias implementadas.
             </p>
             <Tools
               tools={['Python', 'Figma', 'Miro', 'Power BI']}

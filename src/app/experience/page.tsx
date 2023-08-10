@@ -25,21 +25,21 @@ export default function experience() {
             </h2>
 
             <p className="text-justify">
-              Em um ambiente desafiador com uma equipe composta por cerca de 30
-              pessoas, fui encarregado de abordar questões complexas nos setores
-              de compras, almoxarifado e patrimônio. O principal obstáculo
-              residia na resolução de problemas legados de gestões anteriores.
-              Para enfrentar essa situação, conduzi uma investigação detalhada
-              que abrangeu uma década de dados, aplicando minuciosa análise de
-              erros por meio da ciência de dados, usando Python e R. Ao aplicar
-              essa abordagem, pude revolucionar o sistema de gestão de
-              patrimônio, previamente problemático, resultando em um sistema
-              altamente eficiente que recebeu elogios tanto interna quanto
-              externamente. A principal lição extraída dessa experiência foi a
-              importância da inovação na resolução de problemas, com a
-              utilização de ferramentas tecnológicas não convencionais para
-              alcançar resultados notáveis em áreas antes não exploradas dessa
-              maneira.
+              Em um ambiente desafiador com uma equipe composta por cerca de{' '}
+              <b>30 pessoas</b>, fui encarregado de abordar questões complexas
+              nos setores de <b>compras, almoxarifado e patrimônio</b>. O
+              principal obstáculo residia na resolução de problemas legados de
+              gestões anteriores. Para enfrentar essa situação, conduzi uma
+              investigação detalhada que abrangeu uma década de dados, aplicando
+              minuciosa análise de erros por meio da ciência de dados, usando
+              <b> Python e R</b>. Ao aplicar essa abordagem, pude revolucionar o
+              sistema de gestão de patrimônio, previamente problemático,
+              resultando em um sistema altamente eficiente que recebeu elogios
+              tanto interna quanto externamente. A principal lição extraída
+              dessa experiência foi a importância da <b>inovação</b> na
+              resolução de problemas, com a utilização de ferramentas
+              tecnológicas não convencionais para alcançar resultados notáveis
+              em áreas antes não exploradas dessa maneira.
             </p>
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
@@ -72,19 +72,19 @@ export default function experience() {
 
             <p className="text-justify">
               Trabalhando em estreita colaboração com uma equipe de
-              aproximadamente 10 pessoas, dediquei-me a resolver desafios em
-              projetos destinados a empresas que contratavam nossos serviços.
-              Confrontei questões relacionadas ao baixo desempenho empresarial
-              devido a estruturação inadequada, e minha abordagem envolveu a
-              aplicação de gamificação como solução. Desenvolvi soluções
-              gamificadas para aprimorar o desempenho, conduzindo consultorias e
-              criando softwares baseados nesses conceitos. Como resultado, as
-              empresas contratantes puderam adotar novos modelos e implementar
-              mudanças significativas. Essa experiência me proporcionou uma
-              lição valiosa sobre a importância de compreender além das
-              habilidades técnicas, aprendendo a identificar os contextos
-              específicos das situações para oferecer soluções mais eficazes e
-              adaptadas.
+              aproximadamente <b>10 integrantes,</b> dediquei-me a resolver
+              desafios em projetos destinados a empresas que contratavam nossos
+              serviços. Confrontei questões relacionadas ao baixo desempenho
+              empresarial devido a estruturação inadequada, e minha abordagem
+              envolveu a aplicação de <b>gamificação como solução</b>.
+              Desenvolvi soluções gamificadas para aprimorar o desempenho,
+              conduzindo consultorias e criando softwares baseados nesses
+              conceitos. Como resultado, as empresas contratantes puderam adotar
+              novos modelos e implementar mudanças significativas. Essa
+              experiência me proporcionou uma lição valiosa sobre a importância
+              de compreender além das habilidades técnicas, aprendendo a
+              identificar os <b>contextos específicos</b> das situações para
+              oferecer soluções mais eficazes e adaptadas.
             </p>
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
