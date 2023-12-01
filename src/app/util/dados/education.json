@@ -1,0 +1,18 @@
+{
+    "data": [
+        {   
+            "Image": "unb",
+            "School": "Universidade de Brasília",
+            "Curso":"Engenharia de Software",
+            "DataInicio": "Julho de 2021",
+            "DataFim": "atual"
+        },
+        {   
+            "Image": "ifb",
+            "School": "Instituto Federal de Brasília",
+            "Curso":"Técnico em Química Integrado ao Ensino Médio",
+            "DataInicio": "Fevereiro de 2018",
+            "DataFim": "Março de 2021"
+        }
+    ]
+}

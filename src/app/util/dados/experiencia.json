@@ -1,0 +1,39 @@
+{
+    "data": [
+        {   
+            "Image": "geap",
+            "Titulo": "Geap Autogestão em Saúde",
+            "Cargo":"Estagiário de Analise de Dados",
+            "Descricao": "Auxilio na otimização dos processos de automatização de relatórios com VBA, Excel e power BI; Auxilio na elaboração de relatórios sobre as atividades desenvolvidas pelo setor de tecnologia. Criação de automatizações com Javascript, VBA e MySQL. Atendimento de chamados de extração de dados e estudos.",
+            "DataInicio": "Setembro de 2023",
+            "DataFim": "atual",
+            "Skills": ["Power Query/DAX", "MySQL", "VBA", "Power BI", "Microsoft Excel", "Javascript", "CSS", "HTML"]
+        },
+        {   
+            "Image": "unb",
+            "Titulo": "Universidade de Brasília",
+            "Cargo":"Monitor de Métodos de Desenvolvimento de Software",
+            "Descricao": "Monitor de Métodos de Desenvolvimento de Software do professor George Marsicano Correa, pela Universidade de Brasília, no campus do Gama (FGA). Construção de Backlog do produto, requisitos e auxilio em desenvolvimento Frontend com tecnologias atuais.",
+            "DataInicio": "Agosto de 2023",
+            "DataFim": "atual",
+            "Skills": ["Gerenciamento de Backlog", "Documentação de Software", "Git", "Angular", "Strapi"]
+        },
+        {   
+            "Image": "dpu",
+            "Titulo": "Defensoria Pública da União",
+            "Cargo": "Auxiliar Administrativo",
+            "Descricao": "Levantamentos de dados e Elaboração de planilhas automatizadas com VBA; Apresentação de relatórios em painéis de controle com Power BI.",
+            "DataInicio": "Janeiro de 2022",
+            "DataFim": "Setembro de 2023",
+            "Skills": ["VBA", "Microsoft Excel","Microsoft Acess", "Microsoft Word"]
+        },
+        {   
+            "Image": "orc",
+            "Titulo": "Orc'estra Gamificação",
+            "Descricao": "Elaboração de backlog do produto; Desenvolvimento Mobile com React Native e Expo; Idealização de soluções Gamificadas para empresas.",
+            "DataInicio": "Setembro de 2021",
+            "DataFim": "Fevereiro de 2022",
+            "Skills": ["React Native", "Expo", "Git", "React.JS"]
+        }
+    ]
+}
