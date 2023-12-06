@@ -9,7 +9,7 @@ export default function Home() {
     <div className="mx-48 flex h-screen flex-row items-center justify-center overflow-hidden max-sm:mx-10">
       <PageWrapper>
         <div className="flex w-full flex-col items-center justify-center gap-5">
-          <Image priority src={photo} alt="Maykon" width={200} />
+          <Image priority src={photo} alt="Maykon" width={200} className='rounded-full' />
           <div className="flex flex-col items-center gap-2">
             <h2 className="text-5xl font-bold text-white-100 max-sm:text-4xl">
               Maykon Júnio
