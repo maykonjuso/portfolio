@@ -22,7 +22,7 @@ export default function about() {
               </p>
               <ul className="flex flex-col items-end max-sm:items-start">
                 <li className="font-bold text-white-100">Áreas de atuação</li>
-                <li className="text-white-100">Data Science</li>
+                <li className="text-white-100">Data engineer</li>
                 <li className="text-white-100">Machine learning</li>
                 <li className="text-white-100">Front-end</li>
                 <li className="text-white-100">Back-end</li>
@@ -40,10 +40,10 @@ export default function about() {
         <div className="flex flex-row gap-24 max-sm:flex-col">
           <div className="w-1/2 max-sm:w-full">
             <h2 className="bg-gradient-to-r from-cyan-500 to-white-100 bg-clip-text pb-8 text-4xl font-bold text-transparent">
-              Data Scientist
+              Data Engineer
             </h2>
             <p className="text-justify text-white-100 ">
-              Minha paixão pela Ciência de Dados me levou a explorar um vasto
+              Minha paixão pela Engenharia de Dados me levou a explorar um vasto
               conjunto de ferramentas e técnicas para extrair informações
               valiosas de conjuntos de dados complexos. Através do estudo de
               linguagens como Python e R, adquiri habilidades diversificadas e
@@ -51,11 +51,11 @@ export default function about() {
               Scikit-learn. Essas ferramentas poderosas me permitiram realizar
               análises estatísticas detalhadas, criar modelos preditivos
               precisos e visualizar os resultados de forma clara. Combinando meu
-              conhecimento em Ciência de Dados e programação, fui capaz de
+              conhecimento em Engenharia de Dados e programação, fui capaz de
               desvendar insights significativos a partir dos dados,
               impulsionando a inovação e o sucesso dos projetos em que
               participei. Estou entusiasmado com as perspectivas futuras, uma
-              vez que a Ciência de Dados continua a evoluir e desempenhar um
+              vez que a Engenharia de Dados continua a evoluir e desempenhar um
               papel cada vez mais relevante em nossa sociedade em constante
               transformação.
             </p>

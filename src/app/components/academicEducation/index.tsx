@@ -1,7 +1,6 @@
 import { CalendarClock, MapPin } from "lucide-react";
 import Image from "next/image";
 import dados from '../../util/dados/education.json'
-import Tools from "../../projects/components/tools";
 
 export default function AcademicEducation() {
     const data = dados.data
